@@ -6,7 +6,7 @@
 
 A robust, clock-synchronized **Finite State Machine (FSM)** developed in **Verilog HDL** to continuously monitor an input stream and detect the specific sequence `1101`. 
 
-This project demonstrates core hardware engineering principles, including synchronous state transitions, combinational next-state logic, and edge-case simulation through automated testbenches. Developed as part of the Computer Engineering curriculum at **Boğaziçi University**.
+This project demonstrates core hardware engineering principles, including synchronous state transitions, combinational next-state logic, and edge-case simulation through automated testbenches. Developed as part of the Computer Engineering curriculum at **Bogazici University**.
 
 ---
 

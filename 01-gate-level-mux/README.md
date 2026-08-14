@@ -14,4 +14,4 @@ This module implements a **2-to-1 Multiplexer** using structural, gate-level Ver
 ## 🛠️ Verification & Testbench
 The testbench validates the gate-level switching behavior:
 * **State Transition Testing:** Toggles the `select` line while holding input states to ensure correct signal routing.
-* **Waveform Generation:** Dumps real-time signal transitions into a `muxGtime.vcd` file for logic analyzer inspection in GTKWave.
+* **Waveform Generation:** Dumps real-time signal transitions into a `timingDiagram.vcd` file for logic analyzer inspection in GTKWave.

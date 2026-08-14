@@ -17,4 +17,4 @@ This project implements a 4-bit **Arithmetic Logic Unit (ALU)** capable of perfo
 ## 🛠️ Verification & Testbench
 The testbench validates core arithmetic and logic transitions:
 * **Vector Stimulation:** Cycles through custom decimal and binary values (`5+3`, `10-4`, bitwise operations) acros time intervals.
-* **Waveform Generation:** Dumps signal transitions into a `timingDiagram` file for timing verification.
+* **Waveform Generation:** Dumps signal transitions into a `timingDiagram.vcd` file for timing verification.

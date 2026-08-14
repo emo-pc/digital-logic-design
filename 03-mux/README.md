@@ -13,4 +13,4 @@ This project implements a standard **4-to-1 Multiplexer** using behavioral Veril
 ## 🛠️ Verification & Testbench
 The testbench validates multi-channel data selection:
 * **Vector Stimulation:** Shifts input bit patterns and cycles through all select combinations (`2'b00` to `2'b11`).
-* **Waveform Generation:** Exports execution traces into a `prelab2Time.vcd` file for timing analysis.
+* **Waveform Generation:** Exports execution traces into a `.vcd` file for timing analysis.
