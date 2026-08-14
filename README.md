@@ -33,3 +33,32 @@ A comprehensive collection of digital logic design projects implemented in **Ver
 * **HDL Language:** Verilog HDL
 * **Simulation & Testing:** Self-checking testbenches with procedural `$display` tasks and automated waveform dumping (`.vcd` format)
 * **Waveform Viewers:** Fully compatible with **GTKWave** and standard industry EDA simulation tools
+---
+
+## 🛠️ How to Simulate Locally
+
+To compile and simulate the waveform logic on your machine, you need a Verilog compiler like **Icarus Verilog** and a waveform viewer like **GTKWave**.
+
+**1. Compile the Source Code:**
+```bash
+iverilog -o sequence_sim testFstM.v fstm.v
+```
+
+**2. Execute the Simulation:**
+```bash
+vvp sequence_sim
+```
+
+**3. View the Waveforms:**
+```bash
+# This will open the generated VCD file to visualize the clock cycles and state flags.
+gtkwave finitesSM.vcd
+```
+
+---
+
+## 👤 Author
+
+**Emre Ezgü**  
+- **University:** Boğaziçi University — Computer Engineering
+- **GitHub:** [@emo-pc](https://github.com/emo-pc)

@@ -7,14 +7,14 @@
 This project implements a 4-bit **Arithmetic Logic Unit (ALU)** capable of performing fundamental arithmetic and bitwise logical operations controlled by a selection line.
 
 ## ⚙️ Architecture & Logic
-* **Combinational Datapath:** Uses continuous behavioral sensitivity blocks (`always @(*)`) to evaluate operations instantly based on inputs[cite: 21].
+* **Combinational Datapath:** Uses continuous behavioral sensitivity blocks (`always @(*)`) to evaluate operations instantly based on inputs.
 * **Supported Operations:** 
-  * `2'b00`: Addition (`a + b`)[cite: 21]
-  * `2'b01`: Subtraction (`a - b`)[cite: 21]
-  * `2'b10`: Bitwise AND (`a & b`)[cite: 21]
-  * `2'b11`: Bitwise OR (`a | b`)[cite: 21]
+  * `2'b00`: Addition (`a + b`)
+  * `2'b01`: Subtraction (`a - b`)
+  * `2'b10`: Bitwise AND (`a & b`)
+  * `2'b11`: Bitwise OR (`a | b`)
 
 ## 🛠️ Verification & Testbench
 The testbench validates core arithmetic and logic transitions:
-* **Vector Stimulation:** Cycles through custom decimal and binary values (`5+3`, `10-4`, bitwise operations) across time intervals[cite: 22].
-* **Waveform Generation:** Dumps signal transitions into a `timingDiagram` file for timing verification[cite: 22].
+* **Vector Stimulation:** Cycles through custom decimal and binary values (`5+3`, `10-4`, bitwise operations) acros time intervals.
+* **Waveform Generation:** Dumps signal transitions into a `timingDiagram` file for timing verification.

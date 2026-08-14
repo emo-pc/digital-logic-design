@@ -12,6 +12,6 @@ This module implements a **Transparent D Latch** using high-level behavioral Ver
 
 ## 🛠️ Verification & Testbench
 The testbench provides rigorous timing and signal verification:
-* **Clock Generation:** Generates a continuous toggling clock signal using `always #5 clk = ~clk`[cite: 12].
-* **Runtime Monitoring:** Uses `$display` system tasks to log exact time stamps, input data states, and output responses directly to the console[cite: 12].
-* **Waveform Dumping:** Exports signal transitions into a `timingDia.vcd` file for graphical inspection in GTKWave[cite: 12].
+* **Clock Generation:** Generates a continuous toggling clock signal using `always #5 clk = ~clk`.
+* **Runtime Monitoring:** Uses `$display` system tasks to log exact time stamps, input data states, and output responses directly to the console.
+* **Waveform Dumping:** Exports signal transitions into a `timingDia.vcd` file for graphical inspection in GTKWave.

@@ -7,10 +7,10 @@
 This module implements a **Positive Edge-Triggered D Flip-Flop** using behavioral Verilog modeling, complete with a dedicated testbench for synchronous verification.
 
 ## ⚙️ Architecture & Logic
-* **Edge-Triggered Synchronous Design:** Uses the `posedge clk` sensitivity list to ensure state changes occur strictly on the rising edge of the clock cycle[cite: 11].
+* **Edge-Triggered Synchronous Design:** Uses the `posedge clk` sensitivity list to ensure state changes occur strictly on the rising edge of the clock cycle.
 * **Non-Blocking Assignments:** Utilizes non-blocking assignments (`<=`) inside the procedural block to model proper hardware sequential storage and prevent race conditions.
 
 ## 🛠️ Verification & Testbench
 The testbench validates sequential timing behavior:
-* **Clock Generation:** Continuously toggles the clock signal every 5 time units (`always #5 clk = ~clk`)[cite: 12].
-* **Waveform Dumping:** Exports signal transitions to a `timingDia.vcd` file for logic analyzer inspection[cite: 12].
+* **Clock Generation:** Continuously toggles the clock signal every 5 time units (`always #5 clk = ~clk`).
+* **Waveform Dumping:** Exports signal transitions to a `timingDia.vcd` file for logic analyzer inspection.
