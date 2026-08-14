@@ -63,6 +63,6 @@ gtkwave finitesSM.vcd
   <img src="https://github.com/user-attachments/assets/7530def7-4d03-4244-974d-7545c44f81f1"" width="150" align="right" alt="Emre Ezgü Ghibli Portrait">
 </a>
 
-**Emre Ezgü**  
+  **Emre Ezgü**  
 - **University:** Bogazici University — Computer Engineering
 - **GitHub:** [@emo-pc](https://github.com/emo-pc)
