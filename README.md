@@ -52,7 +52,7 @@ vvp output.vvp
 **3. View the Waveforms:**
 ```bash
 # This will open the generated VCD file to visualize the clock cycles and state flags.
-gtkwave finitesSM.vcd
+gtkwave timeDia.vcd
 ```
 
 ---
