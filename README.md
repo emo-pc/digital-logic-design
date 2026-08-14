@@ -41,12 +41,12 @@ To compile and simulate the waveform logic on your machine, you need a Verilog c
 
 **1. Compile the Source Code:**
 ```bash
-iverilog -o sequence_sim testFstM.v fstm.v
+iverilog -o output.vvp source.v testbench.v
 ```
 
 **2. Execute the Simulation:**
 ```bash
-vvp sequence_sim
+vvp output.vvp
 ```
 
 **3. View the Waveforms:**
