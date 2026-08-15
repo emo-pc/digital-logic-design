@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module muxB (
+module mux (
     input wire i0,
     input wire i1,
     input wire sel,
