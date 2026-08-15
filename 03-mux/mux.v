@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module prelab2 (
+module mux (
     input wire[3:0] i,
     input wire[1:0] s,
     output reg out
