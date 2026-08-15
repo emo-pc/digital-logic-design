@@ -1,9 +1,9 @@
 `timescale 1ns/1ns
-module testFstM ();
+module testFsm ();
     reg inp,clk,res;
     wire out;
 
-    fstM emo(
+    fsm uut(
         .in(inp),
         .clk(clk),
         .reset(res),
