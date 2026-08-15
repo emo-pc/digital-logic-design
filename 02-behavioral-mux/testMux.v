@@ -1,15 +1,15 @@
 `timescale 1ns/1ns
-module testMuxB ();
+module testMux ();
 
     reg input0;
     reg input1;
     reg select;
     wire outt;
 
-    muxB behavioral_instance(input0,input1,select,outt);
+    mux behavioral_instance(input0,input1,select,outt);
 
     initial begin
-        $dumpfile("muxB.vcd");
+        $dumpfile("mux.vcd");
         $dumpvars(0,input0,input1,select,outt);
 
         input0=1'b0;
