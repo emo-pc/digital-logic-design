@@ -1,14 +1,14 @@
 `timescale 1ns/1ns
-module testprelab2 ();
+module testMux ();
 
     reg[3:0] in;
     reg[1:0] sel;
     wire o;
 
-    prelab2 behavioral_instance(in,sel,o);
+    mux behavioral_instance(in,sel,o);
 
     initial begin
-        $dumpfile("prelab2Time.vcd");
+        $dumpfile("Time.vcd");
         $dumpvars(0,in,sel,o);
         in=4'b0001;sel=2'b00;
         #10;
