@@ -15,7 +15,7 @@ module testbench();
     );
     initial begin
         #10;
-        $dumpfile("timingDiagram");
+        $dumpfile("timingDiagram.vcd");
         $dumpvars(0,aa,bb,sell,ress);
         aa=4'b0000; bb = 4'b0000; sell = 2'b00;
         #10; aa = 4'd5; bb = 4'd3; sell = 2'b00;
