@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module fstM (
+module fsm (
     input in,
     input reset,
     input clk,
